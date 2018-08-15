@@ -25,3 +25,5 @@ npm start
 
 四　工具基本原理  
 通过API访问HGNC、NCBI数据库，获取基因信息，并利用Google 翻译将其翻译为中文。  
+
+该工具的成果　已经在 www.genostack.com 做了应用　大家可以先看看效果。
