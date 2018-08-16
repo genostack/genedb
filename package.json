@@ -1,0 +1,31 @@
+{
+  "name": "genedb",
+  "version": "1.0.0",
+  "description": "a tool to make a gene database in Chinese language",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genostack/genedb.git"
+  },
+  "keywords": [
+    "Chinese",
+    "gene",
+    "database"
+  ],
+  "author": "genostack",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/genostack/genedb/issues"
+  },
+  "homepage": "https://github.com/genostack/genedb#readme",
+  "dependencies": {
+    "google-translate-api-cn": "^1.0.1",
+    "node-fetch": "^2.2.0",
+    "sequelize": "^4.38.0",
+    "xml2js": "^0.4.19"
+  }
+}
