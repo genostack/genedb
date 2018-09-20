@@ -20,8 +20,18 @@ $ npm install --save tedious
 config.js中根据实际情况配置数据库  
 
 三　执行  
-npm start  
-由于HGNC中列出的基因名称较多，该执行会比较长，耐性等待  
+node genedb.js --help
+Usage: genedb [options] [command]
+Create different genetic databases locally.
+Options:
+  -V, --version       output the version number
+  -h, --help          output usage information
+Commands:
+  createsnps          Create snps from snpedia if not exist.
+  creategenotypes     Create all genotypes of a snp
+  translatesnps       Translate snps into Chinese
+  translategenotypes  Translate genotypes into Chinese
+
 
 四　工具基本原理  
 通过API访问HGNC、NCBI数据库，获取基因信息，并利用Google 翻译将其翻译为中文。  
