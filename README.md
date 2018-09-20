@@ -20,17 +20,17 @@ $ npm install --save tedious
 config.js中根据实际情况配置数据库  
 
 三　执行  
-node genedb.js --help
-Usage: genedb [options] [command]
-Create different genetic databases locally.
-Options:
-  -V, --version       output the version number
-  -h, --help          output usage information
-Commands:
-  createsnps          Create snps from snpedia if not exist.
-  creategenotypes     Create all genotypes of a snp
-  translatesnps       Translate snps into Chinese
-  translategenotypes  Translate genotypes into Chinese
+node genedb.js --help  
+Usage: genedb [options] [command]  
+Create different genetic databases locally.  
+Options:  
+  -V, --version       output the version number  
+  -h, --help          output usage information  
+Commands:  
+  createsnps          Create snps from snpedia if not exist.  
+  creategenotypes     Create all genotypes of a snp  
+  translatesnps       Translate snps into Chinese  
+  translategenotypes  Translate genotypes into Chinese  
 
 
 四　工具基本原理  
