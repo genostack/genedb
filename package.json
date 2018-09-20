@@ -23,8 +23,15 @@
   },
   "homepage": "https://github.com/genostack/genedb#readme",
   "dependencies": {
+    "commander": "^2.18.0",
+    "google-translate-api": "^2.3.0",
     "google-translate-api-cn": "^1.0.1",
+    "mwbot": "^1.0.10",
     "node-fetch": "^2.2.0",
-    "sequelize": "^4.38.0"
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
   }
 }

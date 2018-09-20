@@ -11,9 +11,11 @@ var sequelize = new seq(
             timestamps: false //为模型添加 createdAt 和 updatedAt 两个时间戳字段（true or false）
         },
         pool: { //使用连接池连接，默认为true
-            max: 50,
+            max: 80,
             min: 0,
-            idle: 30000
+            idle: 1000,
+	    evict: 1000,
+	    acquire: 200000
         },
     });
 

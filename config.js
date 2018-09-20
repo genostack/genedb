@@ -2,7 +2,8 @@ const config = {
   srcdb:{
     'HGNC': 'http://rest.genenames.org/fetch/status/Approved',
     'entrez': 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&retmode=json&id=',
-    'ensembl': 'https://rest.ensembl.org/lookup/symbol/homo_sapiens/'
+    'ensembl': 'https://rest.ensembl.org/lookup/symbol/homo_sapiens/',
+    'snpedia': 'https://bots.snpedia.com/api.php'
   },
   targetdb: {
     host: 'localhost',
